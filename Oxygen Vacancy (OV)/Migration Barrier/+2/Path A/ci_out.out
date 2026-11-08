@@ -1,0 +1,79 @@
+
+     Program NEB v.7.4 starts on 24Jun2026 at  8:40: 1 
+
+     This program is part of the open-source Quantum ESPRESSO suite
+     for quantum simulation of materials; please cite
+         "P. Giannozzi et al., J. Phys.:Condens. Matter 21 395502 (2009);
+         "P. Giannozzi et al., J. Phys.:Condens. Matter 29 465901 (2017);
+         "P. Giannozzi et al., J. Chem. Phys. 152 154105 (2020);
+          URL http://www.quantum-espresso.org", 
+     in publications or presentations arising from this work. More details at
+     http://www.quantum-espresso.org/quote
+
+     Parallel version (MPI), running on    10 processors
+
+     MPI processes distributed on     1 nodes
+     6906 MiB available memory on the printing compute node when the environment starts
+
+
+     Parsing file: ci_in.in
+     Reading input from pw_1.in
+     file Zr.pbe-spn-kjpaw_psl.1.0.0.UPF: wavefunction(s)  4S 4P renormalized
+     file O.pbe-n-kjpaw_psl.1.0.0.UPF: wavefunction(s)  2S 2P renormalized
+     Reading input from pw_2.in
+     file Zr.pbe-spn-kjpaw_psl.1.0.0.UPF: wavefunction(s)  4S 4P renormalized
+     file O.pbe-n-kjpaw_psl.1.0.0.UPF: wavefunction(s)  2S 2P renormalized
+
+     reading file 'aiida.path'
+
+
+     string_method                 =    neb
+     restart_mode                  =    restart
+     opt_scheme                    =    broyden
+     num_of_images                 =    5
+     nstep_path                    =    150
+     CI_scheme                     =    auto
+     first_last_opt                =    F
+     use_freezing                  =    F
+     ds                            =    1.0000 a.u.
+     k_max                         =    0.1000 a.u.
+     k_min                         =    0.1000 a.u.
+     suggested k_max               =    0.6169 a.u.
+     suggested k_min               =    0.6169 a.u.
+     path_thr                      =    0.0500 eV / A
+
+     ------------------------------ iteration  16 ------------------------------
+
+     tcpu =      0.9    self-consistency for image   2
+     tcpu =   1202.9    self-consistency for image   3
+     tcpu =   2198.0    self-consistency for image   4
+
+     activation energy (->) =   0.679910 eV
+     activation energy (<-) =   0.680003 eV
+
+     image        energy (eV)        error (eV/A)        frozen
+
+         1     -84574.4353803            0.023389            T
+         2     -84574.0582135            0.044638            F
+         3     -84573.7554705            0.046282            F
+         4     -84574.0583791            0.044380            F
+         5     -84574.4354737            0.019000            T
+
+     climbing image =  3
+
+     path length          =  4.862 bohr
+     inter-image distance =  1.215 bohr
+
+     ---------------------------------------------------------------------------
+
+
+     neb: convergence achieved in  16 iterations
+
+     NEB          :  53m 5.63s CPU  53m35.06s WALL
+
+
+   This run was terminated on:   9:33:36  24Jun2026            
+
+=------------------------------------------------------------------------------=
+   JOB DONE.
+=------------------------------------------------------------------------------=

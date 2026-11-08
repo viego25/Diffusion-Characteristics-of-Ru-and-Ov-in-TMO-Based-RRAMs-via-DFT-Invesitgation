@@ -1,0 +1,485 @@
+
+     Program POST-PROC v.7.4 starts on 21Jul2026 at  3:33:36 
+
+     This program is part of the open-source Quantum ESPRESSO suite
+     for quantum simulation of materials; please cite
+         "P. Giannozzi et al., J. Phys.:Condens. Matter 21 395502 (2009);
+         "P. Giannozzi et al., J. Phys.:Condens. Matter 29 465901 (2017);
+         "P. Giannozzi et al., J. Chem. Phys. 152 154105 (2020);
+          URL http://www.quantum-espresso.org", 
+     in publications or presentations arising from this work. More details at
+     http://www.quantum-espresso.org/quote
+
+     Parallel version (MPI), running on     4 processors
+
+     MPI processes distributed on     1 nodes
+     R & G space division:  proc/nbgrp/npool/nimage =       4
+     5333 MiB available memory on the printing compute node when the environment starts
+
+
+     Reading xml data from directory:
+
+     ./out/aiida.save/
+     file O.pbe-n-kjpaw_psl.1.0.0.UPF: wavefunction(s)  2S 2P renormalized
+     file Zr.pbe-spn-kjpaw_psl.1.0.0.UPF: wavefunction(s)  4S 4P renormalized
+     file Ru.pbe-spn-kjpaw_psl.1.0.0.UPF: wavefunction(s)  4D renormalized
+
+     IMPORTANT: XC functional enforced from input :
+     Exchange-correlation= PBE
+                           (   1   4   3   4   0   0   0)
+     Any further DFT definition will be discarded
+     Please, verify this is what you really want
+
+
+     Parallelization info
+     --------------------
+     sticks:   dense  smooth     PW     G-vecs:    dense   smooth      PW
+     Min        1611     802    222               139569    49341    7245
+     Max        1614     803    223               139570    49343    7247
+     Sum        6447    3211    891               558277   197369   28983
+
+     Using Slab Decomposition
+
+
+     Check: negative core charge=   -0.000002
+
+     Calling punch_plot, plot_num =   7
+
+     Plotting k_point =   1  band =197
+     Writing data to file  defect_states.dat_K001_B197
+
+     Calling punch_plot, plot_num =   7
+
+     Plotting k_point =   1  band =198
+     Writing data to file  defect_states.dat_K001_B198
+
+     Calling punch_plot, plot_num =   7
+
+     Plotting k_point =   1  band =199
+     Writing data to file  defect_states.dat_K001_B199
+
+     Calling punch_plot, plot_num =   7
+
+     Plotting k_point =   1  band =200
+     Writing data to file  defect_states.dat_K001_B200
+
+     Calling punch_plot, plot_num =   7
+
+     Plotting k_point =   2  band =197
+     Writing data to file  defect_states.dat_K002_B197
+
+     Calling punch_plot, plot_num =   7
+
+     Plotting k_point =   2  band =198
+     Writing data to file  defect_states.dat_K002_B198
+
+     Calling punch_plot, plot_num =   7
+
+     Plotting k_point =   2  band =199
+     Writing data to file  defect_states.dat_K002_B199
+
+     Calling punch_plot, plot_num =   7
+
+     Plotting k_point =   2  band =200
+     Writing data to file  defect_states.dat_K002_B200
+
+     Calling punch_plot, plot_num =   7
+
+     Plotting k_point =   3  band =197
+     Writing data to file  defect_states.dat_K003_B197
+
+     Calling punch_plot, plot_num =   7
+
+     Plotting k_point =   3  band =198
+     Writing data to file  defect_states.dat_K003_B198
+
+     Calling punch_plot, plot_num =   7
+
+     Plotting k_point =   3  band =199
+     Writing data to file  defect_states.dat_K003_B199
+
+     Calling punch_plot, plot_num =   7
+
+     Plotting k_point =   3  band =200
+     Writing data to file  defect_states.dat_K003_B200
+
+     Calling punch_plot, plot_num =   7
+
+     Plotting k_point =   4  band =197
+     Writing data to file  defect_states.dat_K004_B197
+
+     Calling punch_plot, plot_num =   7
+
+     Plotting k_point =   4  band =198
+     Writing data to file  defect_states.dat_K004_B198
+
+     Calling punch_plot, plot_num =   7
+
+     Plotting k_point =   4  band =199
+     Writing data to file  defect_states.dat_K004_B199
+
+     Calling punch_plot, plot_num =   7
+
+     Plotting k_point =   4  band =200
+     Writing data to file  defect_states.dat_K004_B200
+
+     Calling punch_plot, plot_num =   7
+
+     Plotting k_point =   5  band =197
+     Writing data to file  defect_states.dat_K005_B197
+
+     Calling punch_plot, plot_num =   7
+
+     Plotting k_point =   5  band =198
+     Writing data to file  defect_states.dat_K005_B198
+
+     Calling punch_plot, plot_num =   7
+
+     Plotting k_point =   5  band =199
+     Writing data to file  defect_states.dat_K005_B199
+
+     Calling punch_plot, plot_num =   7
+
+     Plotting k_point =   5  band =200
+     Writing data to file  defect_states.dat_K005_B200
+
+     Calling punch_plot, plot_num =   7
+
+     Plotting k_point =   6  band =197
+     Writing data to file  defect_states.dat_K006_B197
+
+     Calling punch_plot, plot_num =   7
+
+     Plotting k_point =   6  band =198
+     Writing data to file  defect_states.dat_K006_B198
+
+     Calling punch_plot, plot_num =   7
+
+     Plotting k_point =   6  band =199
+     Writing data to file  defect_states.dat_K006_B199
+
+     Calling punch_plot, plot_num =   7
+
+     Plotting k_point =   6  band =200
+     Writing data to file  defect_states.dat_K006_B200
+
+     Calling punch_plot, plot_num =   7
+
+     Plotting k_point =   7  band =197
+     Writing data to file  defect_states.dat_K007_B197
+
+     Calling punch_plot, plot_num =   7
+
+     Plotting k_point =   7  band =198
+     Writing data to file  defect_states.dat_K007_B198
+
+     Calling punch_plot, plot_num =   7
+
+     Plotting k_point =   7  band =199
+     Writing data to file  defect_states.dat_K007_B199
+
+     Calling punch_plot, plot_num =   7
+
+     Plotting k_point =   7  band =200
+     Writing data to file  defect_states.dat_K007_B200
+
+     Calling punch_plot, plot_num =   7
+
+     Plotting k_point =   8  band =197
+     Writing data to file  defect_states.dat_K008_B197
+
+     Calling punch_plot, plot_num =   7
+
+     Plotting k_point =   8  band =198
+     Writing data to file  defect_states.dat_K008_B198
+
+     Calling punch_plot, plot_num =   7
+
+     Plotting k_point =   8  band =199
+     Writing data to file  defect_states.dat_K008_B199
+
+     Calling punch_plot, plot_num =   7
+
+     Plotting k_point =   8  band =200
+     Writing data to file  defect_states.dat_K008_B200
+
+     Calling punch_plot, plot_num =   7
+
+     Plotting k_point =   9  band =197
+     Writing data to file  defect_states.dat_K009_B197
+
+     Calling punch_plot, plot_num =   7
+
+     Plotting k_point =   9  band =198
+     Writing data to file  defect_states.dat_K009_B198
+
+     Calling punch_plot, plot_num =   7
+
+     Plotting k_point =   9  band =199
+     Writing data to file  defect_states.dat_K009_B199
+
+     Calling punch_plot, plot_num =   7
+
+     Plotting k_point =   9  band =200
+     Writing data to file  defect_states.dat_K009_B200
+
+     Calling punch_plot, plot_num =   7
+
+     Plotting k_point =  10  band =197
+     Writing data to file  defect_states.dat_K010_B197
+
+     Calling punch_plot, plot_num =   7
+
+     Plotting k_point =  10  band =198
+     Writing data to file  defect_states.dat_K010_B198
+
+     Calling punch_plot, plot_num =   7
+
+     Plotting k_point =  10  band =199
+     Writing data to file  defect_states.dat_K010_B199
+
+     Calling punch_plot, plot_num =   7
+
+     Plotting k_point =  10  band =200
+     Writing data to file  defect_states.dat_K010_B200
+
+     Calling punch_plot, plot_num =   7
+
+     Plotting k_point =  11  band =197
+     Writing data to file  defect_states.dat_K011_B197
+
+     Calling punch_plot, plot_num =   7
+
+     Plotting k_point =  11  band =198
+     Writing data to file  defect_states.dat_K011_B198
+
+     Calling punch_plot, plot_num =   7
+
+     Plotting k_point =  11  band =199
+     Writing data to file  defect_states.dat_K011_B199
+
+     Calling punch_plot, plot_num =   7
+
+     Plotting k_point =  11  band =200
+     Writing data to file  defect_states.dat_K011_B200
+
+     Calling punch_plot, plot_num =   7
+
+     Plotting k_point =  12  band =197
+     Writing data to file  defect_states.dat_K012_B197
+
+     Calling punch_plot, plot_num =   7
+
+     Plotting k_point =  12  band =198
+     Writing data to file  defect_states.dat_K012_B198
+
+     Calling punch_plot, plot_num =   7
+
+     Plotting k_point =  12  band =199
+     Writing data to file  defect_states.dat_K012_B199
+
+     Calling punch_plot, plot_num =   7
+
+     Plotting k_point =  12  band =200
+     Writing data to file  defect_states.dat_K012_B200
+     Reading data from file  defect_states.dat_K001_B197
+
+     Writing data to be plotted to file defect_states.dat_K001_B197defect_states.cube
+     Plot Type: 3D                     Output format: Gaussian cube
+     Reading data from file  defect_states.dat_K001_B198
+
+     Writing data to be plotted to file defect_states.dat_K001_B198defect_states.cube
+     Plot Type: 3D                     Output format: Gaussian cube
+     Reading data from file  defect_states.dat_K001_B199
+
+     Writing data to be plotted to file defect_states.dat_K001_B199defect_states.cube
+     Plot Type: 3D                     Output format: Gaussian cube
+     Reading data from file  defect_states.dat_K001_B200
+
+     Writing data to be plotted to file defect_states.dat_K001_B200defect_states.cube
+     Plot Type: 3D                     Output format: Gaussian cube
+     Reading data from file  defect_states.dat_K002_B197
+
+     Writing data to be plotted to file defect_states.dat_K002_B197defect_states.cube
+     Plot Type: 3D                     Output format: Gaussian cube
+     Reading data from file  defect_states.dat_K002_B198
+
+     Writing data to be plotted to file defect_states.dat_K002_B198defect_states.cube
+     Plot Type: 3D                     Output format: Gaussian cube
+     Reading data from file  defect_states.dat_K002_B199
+
+     Writing data to be plotted to file defect_states.dat_K002_B199defect_states.cube
+     Plot Type: 3D                     Output format: Gaussian cube
+     Reading data from file  defect_states.dat_K002_B200
+
+     Writing data to be plotted to file defect_states.dat_K002_B200defect_states.cube
+     Plot Type: 3D                     Output format: Gaussian cube
+     Reading data from file  defect_states.dat_K003_B197
+
+     Writing data to be plotted to file defect_states.dat_K003_B197defect_states.cube
+     Plot Type: 3D                     Output format: Gaussian cube
+     Reading data from file  defect_states.dat_K003_B198
+
+     Writing data to be plotted to file defect_states.dat_K003_B198defect_states.cube
+     Plot Type: 3D                     Output format: Gaussian cube
+     Reading data from file  defect_states.dat_K003_B199
+
+     Writing data to be plotted to file defect_states.dat_K003_B199defect_states.cube
+     Plot Type: 3D                     Output format: Gaussian cube
+     Reading data from file  defect_states.dat_K003_B200
+
+     Writing data to be plotted to file defect_states.dat_K003_B200defect_states.cube
+     Plot Type: 3D                     Output format: Gaussian cube
+     Reading data from file  defect_states.dat_K004_B197
+
+     Writing data to be plotted to file defect_states.dat_K004_B197defect_states.cube
+     Plot Type: 3D                     Output format: Gaussian cube
+     Reading data from file  defect_states.dat_K004_B198
+
+     Writing data to be plotted to file defect_states.dat_K004_B198defect_states.cube
+     Plot Type: 3D                     Output format: Gaussian cube
+     Reading data from file  defect_states.dat_K004_B199
+
+     Writing data to be plotted to file defect_states.dat_K004_B199defect_states.cube
+     Plot Type: 3D                     Output format: Gaussian cube
+     Reading data from file  defect_states.dat_K004_B200
+
+     Writing data to be plotted to file defect_states.dat_K004_B200defect_states.cube
+     Plot Type: 3D                     Output format: Gaussian cube
+     Reading data from file  defect_states.dat_K005_B197
+
+     Writing data to be plotted to file defect_states.dat_K005_B197defect_states.cube
+     Plot Type: 3D                     Output format: Gaussian cube
+     Reading data from file  defect_states.dat_K005_B198
+
+     Writing data to be plotted to file defect_states.dat_K005_B198defect_states.cube
+     Plot Type: 3D                     Output format: Gaussian cube
+     Reading data from file  defect_states.dat_K005_B199
+
+     Writing data to be plotted to file defect_states.dat_K005_B199defect_states.cube
+     Plot Type: 3D                     Output format: Gaussian cube
+     Reading data from file  defect_states.dat_K005_B200
+
+     Writing data to be plotted to file defect_states.dat_K005_B200defect_states.cube
+     Plot Type: 3D                     Output format: Gaussian cube
+     Reading data from file  defect_states.dat_K006_B197
+
+     Writing data to be plotted to file defect_states.dat_K006_B197defect_states.cube
+     Plot Type: 3D                     Output format: Gaussian cube
+     Reading data from file  defect_states.dat_K006_B198
+
+     Writing data to be plotted to file defect_states.dat_K006_B198defect_states.cube
+     Plot Type: 3D                     Output format: Gaussian cube
+     Reading data from file  defect_states.dat_K006_B199
+
+     Writing data to be plotted to file defect_states.dat_K006_B199defect_states.cube
+     Plot Type: 3D                     Output format: Gaussian cube
+     Reading data from file  defect_states.dat_K006_B200
+
+     Writing data to be plotted to file defect_states.dat_K006_B200defect_states.cube
+     Plot Type: 3D                     Output format: Gaussian cube
+     Reading data from file  defect_states.dat_K007_B197
+
+     Writing data to be plotted to file defect_states.dat_K007_B197defect_states.cube
+     Plot Type: 3D                     Output format: Gaussian cube
+     Reading data from file  defect_states.dat_K007_B198
+
+     Writing data to be plotted to file defect_states.dat_K007_B198defect_states.cube
+     Plot Type: 3D                     Output format: Gaussian cube
+     Reading data from file  defect_states.dat_K007_B199
+
+     Writing data to be plotted to file defect_states.dat_K007_B199defect_states.cube
+     Plot Type: 3D                     Output format: Gaussian cube
+     Reading data from file  defect_states.dat_K007_B200
+
+     Writing data to be plotted to file defect_states.dat_K007_B200defect_states.cube
+     Plot Type: 3D                     Output format: Gaussian cube
+     Reading data from file  defect_states.dat_K008_B197
+
+     Writing data to be plotted to file defect_states.dat_K008_B197defect_states.cube
+     Plot Type: 3D                     Output format: Gaussian cube
+     Reading data from file  defect_states.dat_K008_B198
+
+     Writing data to be plotted to file defect_states.dat_K008_B198defect_states.cube
+     Plot Type: 3D                     Output format: Gaussian cube
+     Reading data from file  defect_states.dat_K008_B199
+
+     Writing data to be plotted to file defect_states.dat_K008_B199defect_states.cube
+     Plot Type: 3D                     Output format: Gaussian cube
+     Reading data from file  defect_states.dat_K008_B200
+
+     Writing data to be plotted to file defect_states.dat_K008_B200defect_states.cube
+     Plot Type: 3D                     Output format: Gaussian cube
+     Reading data from file  defect_states.dat_K009_B197
+
+     Writing data to be plotted to file defect_states.dat_K009_B197defect_states.cube
+     Plot Type: 3D                     Output format: Gaussian cube
+     Reading data from file  defect_states.dat_K009_B198
+
+     Writing data to be plotted to file defect_states.dat_K009_B198defect_states.cube
+     Plot Type: 3D                     Output format: Gaussian cube
+     Reading data from file  defect_states.dat_K009_B199
+
+     Writing data to be plotted to file defect_states.dat_K009_B199defect_states.cube
+     Plot Type: 3D                     Output format: Gaussian cube
+     Reading data from file  defect_states.dat_K009_B200
+
+     Writing data to be plotted to file defect_states.dat_K009_B200defect_states.cube
+     Plot Type: 3D                     Output format: Gaussian cube
+     Reading data from file  defect_states.dat_K010_B197
+
+     Writing data to be plotted to file defect_states.dat_K010_B197defect_states.cube
+     Plot Type: 3D                     Output format: Gaussian cube
+     Reading data from file  defect_states.dat_K010_B198
+
+     Writing data to be plotted to file defect_states.dat_K010_B198defect_states.cube
+     Plot Type: 3D                     Output format: Gaussian cube
+     Reading data from file  defect_states.dat_K010_B199
+
+     Writing data to be plotted to file defect_states.dat_K010_B199defect_states.cube
+     Plot Type: 3D                     Output format: Gaussian cube
+     Reading data from file  defect_states.dat_K010_B200
+
+     Writing data to be plotted to file defect_states.dat_K010_B200defect_states.cube
+     Plot Type: 3D                     Output format: Gaussian cube
+     Reading data from file  defect_states.dat_K011_B197
+
+     Writing data to be plotted to file defect_states.dat_K011_B197defect_states.cube
+     Plot Type: 3D                     Output format: Gaussian cube
+     Reading data from file  defect_states.dat_K011_B198
+
+     Writing data to be plotted to file defect_states.dat_K011_B198defect_states.cube
+     Plot Type: 3D                     Output format: Gaussian cube
+     Reading data from file  defect_states.dat_K011_B199
+
+     Writing data to be plotted to file defect_states.dat_K011_B199defect_states.cube
+     Plot Type: 3D                     Output format: Gaussian cube
+     Reading data from file  defect_states.dat_K011_B200
+
+     Writing data to be plotted to file defect_states.dat_K011_B200defect_states.cube
+     Plot Type: 3D                     Output format: Gaussian cube
+     Reading data from file  defect_states.dat_K012_B197
+
+     Writing data to be plotted to file defect_states.dat_K012_B197defect_states.cube
+     Plot Type: 3D                     Output format: Gaussian cube
+     Reading data from file  defect_states.dat_K012_B198
+
+     Writing data to be plotted to file defect_states.dat_K012_B198defect_states.cube
+     Plot Type: 3D                     Output format: Gaussian cube
+     Reading data from file  defect_states.dat_K012_B199
+
+     Writing data to be plotted to file defect_states.dat_K012_B199defect_states.cube
+     Plot Type: 3D                     Output format: Gaussian cube
+     Reading data from file  defect_states.dat_K012_B200
+
+     Writing data to be plotted to file defect_states.dat_K012_B200defect_states.cube
+     Plot Type: 3D                     Output format: Gaussian cube
+
+     POST-PROC    :   8m 2.08s CPU  13m25.33s WALL
+
+
+   This run was terminated on:   3:47: 1  21Jul2026            
+
+=------------------------------------------------------------------------------=
+   JOB DONE.
+=------------------------------------------------------------------------------=

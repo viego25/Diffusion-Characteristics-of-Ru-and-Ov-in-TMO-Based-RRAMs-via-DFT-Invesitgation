@@ -1,0 +1,160 @@
+
+     Program POST-PROC v.7.4 starts on 21Jul2026 at 16:11:52 
+
+     This program is part of the open-source Quantum ESPRESSO suite
+     for quantum simulation of materials; please cite
+         "P. Giannozzi et al., J. Phys.:Condens. Matter 21 395502 (2009);
+         "P. Giannozzi et al., J. Phys.:Condens. Matter 29 465901 (2017);
+         "P. Giannozzi et al., J. Chem. Phys. 152 154105 (2020);
+          URL http://www.quantum-espresso.org", 
+     in publications or presentations arising from this work. More details at
+     http://www.quantum-espresso.org/quote
+
+     Parallel version (MPI), running on     8 processors
+
+     MPI processes distributed on     1 nodes
+     R & G space division:  proc/nbgrp/npool/nimage =       8
+     5672 MiB available memory on the printing compute node when the environment starts
+
+
+     Reading xml data from directory:
+
+     ./out/aiida.save/
+     file O.pbe-n-kjpaw_psl.1.0.0.UPF: wavefunction(s)  2S 2P renormalized
+     file Zr.pbe-spn-kjpaw_psl.1.0.0.UPF: wavefunction(s)  4S 4P renormalized
+
+     IMPORTANT: XC functional enforced from input :
+     Exchange-correlation= PBE
+                           (   1   4   3   4   0   0   0)
+     Any further DFT definition will be discarded
+     Please, verify this is what you really want
+
+
+     Parallelization info
+     --------------------
+     sticks:   dense  smooth     PW     G-vecs:    dense   smooth      PW
+     Min         805     401    109                69783    24670    3505
+     Max         806     402    110                69787    24672    3510
+     Sum        6447    3211    873               558277   197369   28049
+
+     Using Slab Decomposition
+
+
+     Check: negative core charge=   -0.000002
+
+     Calling punch_plot, plot_num =   7
+
+     Plotting k_point =   1  band =189
+     Writing data to file  defect_states.dat_K001_B189
+
+     Calling punch_plot, plot_num =   7
+
+     Plotting k_point =   2  band =189
+     Writing data to file  defect_states.dat_K002_B189
+
+     Calling punch_plot, plot_num =   7
+
+     Plotting k_point =   3  band =189
+     Writing data to file  defect_states.dat_K003_B189
+
+     Calling punch_plot, plot_num =   7
+
+     Plotting k_point =   4  band =189
+     Writing data to file  defect_states.dat_K004_B189
+
+     Calling punch_plot, plot_num =   7
+
+     Plotting k_point =   5  band =189
+     Writing data to file  defect_states.dat_K005_B189
+
+     Calling punch_plot, plot_num =   7
+
+     Plotting k_point =   6  band =189
+     Writing data to file  defect_states.dat_K006_B189
+
+     Calling punch_plot, plot_num =   7
+
+     Plotting k_point =   7  band =189
+     Writing data to file  defect_states.dat_K007_B189
+
+     Calling punch_plot, plot_num =   7
+
+     Plotting k_point =   8  band =189
+     Writing data to file  defect_states.dat_K008_B189
+
+     Calling punch_plot, plot_num =   7
+
+     Plotting k_point =   9  band =189
+     Writing data to file  defect_states.dat_K009_B189
+
+     Calling punch_plot, plot_num =   7
+
+     Plotting k_point =  10  band =189
+     Writing data to file  defect_states.dat_K010_B189
+
+     Calling punch_plot, plot_num =   7
+
+     Plotting k_point =  11  band =189
+     Writing data to file  defect_states.dat_K011_B189
+
+     Calling punch_plot, plot_num =   7
+
+     Plotting k_point =  12  band =189
+     Writing data to file  defect_states.dat_K012_B189
+     Reading data from file  defect_states.dat_K001_B189
+
+     Writing data to be plotted to file defect_states.dat_K001_B189defect_states.cube
+     Plot Type: 3D                     Output format: Gaussian cube
+     Reading data from file  defect_states.dat_K002_B189
+
+     Writing data to be plotted to file defect_states.dat_K002_B189defect_states.cube
+     Plot Type: 3D                     Output format: Gaussian cube
+     Reading data from file  defect_states.dat_K003_B189
+
+     Writing data to be plotted to file defect_states.dat_K003_B189defect_states.cube
+     Plot Type: 3D                     Output format: Gaussian cube
+     Reading data from file  defect_states.dat_K004_B189
+
+     Writing data to be plotted to file defect_states.dat_K004_B189defect_states.cube
+     Plot Type: 3D                     Output format: Gaussian cube
+     Reading data from file  defect_states.dat_K005_B189
+
+     Writing data to be plotted to file defect_states.dat_K005_B189defect_states.cube
+     Plot Type: 3D                     Output format: Gaussian cube
+     Reading data from file  defect_states.dat_K006_B189
+
+     Writing data to be plotted to file defect_states.dat_K006_B189defect_states.cube
+     Plot Type: 3D                     Output format: Gaussian cube
+     Reading data from file  defect_states.dat_K007_B189
+
+     Writing data to be plotted to file defect_states.dat_K007_B189defect_states.cube
+     Plot Type: 3D                     Output format: Gaussian cube
+     Reading data from file  defect_states.dat_K008_B189
+
+     Writing data to be plotted to file defect_states.dat_K008_B189defect_states.cube
+     Plot Type: 3D                     Output format: Gaussian cube
+     Reading data from file  defect_states.dat_K009_B189
+
+     Writing data to be plotted to file defect_states.dat_K009_B189defect_states.cube
+     Plot Type: 3D                     Output format: Gaussian cube
+     Reading data from file  defect_states.dat_K010_B189
+
+     Writing data to be plotted to file defect_states.dat_K010_B189defect_states.cube
+     Plot Type: 3D                     Output format: Gaussian cube
+     Reading data from file  defect_states.dat_K011_B189
+
+     Writing data to be plotted to file defect_states.dat_K011_B189defect_states.cube
+     Plot Type: 3D                     Output format: Gaussian cube
+     Reading data from file  defect_states.dat_K012_B189
+
+     Writing data to be plotted to file defect_states.dat_K012_B189defect_states.cube
+     Plot Type: 3D                     Output format: Gaussian cube
+
+     POST-PROC    :   1m29.73s CPU   2m46.08s WALL
+
+
+   This run was terminated on:  16:14:38  21Jul2026            
+
+=------------------------------------------------------------------------------=
+   JOB DONE.
+=------------------------------------------------------------------------------=

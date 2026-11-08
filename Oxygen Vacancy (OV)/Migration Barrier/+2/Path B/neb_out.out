@@ -1,0 +1,499 @@
+
+     Program NEB v.7.4 starts on  7Jul2026 at 20: 1:47 
+
+     This program is part of the open-source Quantum ESPRESSO suite
+     for quantum simulation of materials; please cite
+         "P. Giannozzi et al., J. Phys.:Condens. Matter 21 395502 (2009);
+         "P. Giannozzi et al., J. Phys.:Condens. Matter 29 465901 (2017);
+         "P. Giannozzi et al., J. Chem. Phys. 152 154105 (2020);
+          URL http://www.quantum-espresso.org", 
+     in publications or presentations arising from this work. More details at
+     http://www.quantum-espresso.org/quote
+
+     Parallel version (MPI), running on    10 processors
+
+     MPI processes distributed on     1 nodes
+     7012 MiB available memory on the printing compute node when the environment starts
+
+
+     Parsing file: neb_in.in
+     Reading input from pw_1.in
+     file Zr.pbe-spn-kjpaw_psl.1.0.0.UPF: wavefunction(s)  4S 4P renormalized
+     file O.pbe-n-kjpaw_psl.1.0.0.UPF: wavefunction(s)  2S 2P renormalized
+     Reading input from pw_2.in
+     file Zr.pbe-spn-kjpaw_psl.1.0.0.UPF: wavefunction(s)  4S 4P renormalized
+     file O.pbe-n-kjpaw_psl.1.0.0.UPF: wavefunction(s)  2S 2P renormalized
+
+     initial path length           =  4.9381 bohr
+     initial inter-image distance  =  1.2345 bohr
+
+     string_method                 =    neb
+     restart_mode                  =    from_scratch
+     opt_scheme                    =    broyden
+     num_of_images                 =    5
+     nstep_path                    =    150
+     CI_scheme                     =    no-CI
+     first_last_opt                =    F
+     use_freezing                  =    F
+     ds                            =    1.0000 a.u.
+     k_max                         =    0.1000 a.u.
+     k_min                         =    0.1000 a.u.
+     suggested k_max               =    0.6169 a.u.
+     suggested k_min               =    0.6169 a.u.
+     path_thr                      =    0.0500 eV / A
+
+     ------------------------------ iteration   1 ------------------------------
+
+     tcpu =      0.8    self-consistency for image   1
+     tcpu =    950.1    self-consistency for image   2
+     tcpu =   1855.0    self-consistency for image   3
+     tcpu =   2881.6    self-consistency for image   4
+     tcpu =   4120.0    self-consistency for image   5
+
+     activation energy (->) =   2.034997 eV
+     activation energy (<-) =   2.034997 eV
+
+     image        energy (eV)        error (eV/A)        frozen
+
+         1     -84574.4354330            0.019137            T
+         2     -84573.3908164            2.841849            F
+         3     -84572.4004357            4.704393            F
+         4     -84573.3398857            2.881827            F
+         5     -84574.4354325            0.019064            T
+
+     path length          =  4.938 bohr
+     inter-image distance =  1.235 bohr
+
+     ------------------------------ iteration   2 ------------------------------
+
+     tcpu =   5083.7    self-consistency for image   2
+     tcpu =   6086.1    self-consistency for image   3
+     tcpu =   7145.9    self-consistency for image   4
+
+     activation energy (->) =   1.527011 eV
+     activation energy (<-) =   1.527010 eV
+
+     image        energy (eV)        error (eV/A)        frozen
+
+         1     -84574.4354330            0.019137            T
+         2     -84573.6222464            1.862383            F
+         3     -84572.9084222            2.463445            F
+         4     -84573.5672276            1.946830            F
+         5     -84574.4354325            0.019064            T
+
+     path length          =  4.950 bohr
+     inter-image distance =  1.238 bohr
+
+     ------------------------------ iteration   3 ------------------------------
+
+     tcpu =   8172.0    self-consistency for image   2
+     tcpu =   9148.2    self-consistency for image   3
+     tcpu =  10316.6    self-consistency for image   4
+
+     activation energy (->) =   1.214838 eV
+     activation energy (<-) =   1.214838 eV
+
+     image        energy (eV)        error (eV/A)        frozen
+
+         1     -84574.4354330            0.019137            T
+         2     -84573.8048666            0.868009            F
+         3     -84573.2205949            1.104510            F
+         4     -84573.7590789            0.979099            F
+         5     -84574.4354325            0.019064            T
+
+     path length          =  4.998 bohr
+     inter-image distance =  1.250 bohr
+
+     ------------------------------ iteration   4 ------------------------------
+
+     tcpu =  11410.6    self-consistency for image   2
+     tcpu =  12259.8    self-consistency for image   3
+     tcpu =  13245.4    self-consistency for image   4
+
+     activation energy (->) =   1.097064 eV
+     activation energy (<-) =   1.097064 eV
+
+     image        energy (eV)        error (eV/A)        frozen
+
+         1     -84574.4354330            0.019137            T
+         2     -84573.8741260            0.459944            F
+         3     -84573.3383688            0.629258            F
+         4     -84573.8330461            0.567707            F
+         5     -84574.4354325            0.019064            T
+
+     path length          =  5.045 bohr
+     inter-image distance =  1.261 bohr
+
+     ------------------------------ iteration   5 ------------------------------
+
+     tcpu =  14195.9    self-consistency for image   2
+     tcpu =  15066.3    self-consistency for image   3
+     tcpu =  16015.2    self-consistency for image   4
+
+     activation energy (->) =   1.018674 eV
+     activation energy (<-) =   1.018674 eV
+
+     image        energy (eV)        error (eV/A)        frozen
+
+         1     -84574.4354330            0.019137            T
+         2     -84573.9161614            0.287035            F
+         3     -84573.4167590            0.455390            F
+         4     -84573.8817062            0.351927            F
+         5     -84574.4354325            0.019064            T
+
+     path length          =  5.090 bohr
+     inter-image distance =  1.272 bohr
+
+     ------------------------------ iteration   6 ------------------------------
+
+     tcpu =  16936.7    self-consistency for image   2
+     tcpu =  17741.2    self-consistency for image   3
+     tcpu =  18769.1    self-consistency for image   4
+
+     activation energy (->) =   0.945584 eV
+     activation energy (<-) =   0.945583 eV
+
+     image        energy (eV)        error (eV/A)        frozen
+
+         1     -84574.4354330            0.019137            T
+         2     -84573.9487927            0.284984            F
+         3     -84573.4898494            0.341443            F
+         4     -84573.9267590            0.265646            F
+         5     -84574.4354325            0.019064            T
+
+     path length          =  5.152 bohr
+     inter-image distance =  1.288 bohr
+
+     ------------------------------ iteration   7 ------------------------------
+
+     tcpu =  19878.9    self-consistency for image   2
+     tcpu =  20526.3    self-consistency for image   3
+     tcpu =  21395.2    self-consistency for image   4
+
+     activation energy (->) =   0.904286 eV
+     activation energy (<-) =   0.904286 eV
+
+     image        energy (eV)        error (eV/A)        frozen
+
+         1     -84574.4354330            0.019137            T
+         2     -84573.9647631            0.278105            F
+         3     -84573.5311468            0.353263            F
+         4     -84573.9526205            0.215852            F
+         5     -84574.4354325            0.019064            T
+
+     path length          =  5.197 bohr
+     inter-image distance =  1.299 bohr
+
+     ------------------------------ iteration   8 ------------------------------
+
+     tcpu =  22336.3    self-consistency for image   2
+     tcpu =  22995.6    self-consistency for image   3
+     tcpu =  23854.9    self-consistency for image   4
+
+     activation energy (->) =   0.862918 eV
+     activation energy (<-) =   0.862917 eV
+
+     image        energy (eV)        error (eV/A)        frozen
+
+         1     -84574.4354330            0.019137            T
+         2     -84573.9790314            0.233921            F
+         3     -84573.5725154            0.331012            F
+         4     -84573.9786915            0.177821            F
+         5     -84574.4354325            0.019064            T
+
+     path length          =  5.258 bohr
+     inter-image distance =  1.314 bohr
+
+     ------------------------------ iteration   9 ------------------------------
+
+     tcpu =  24891.1    self-consistency for image   2
+     tcpu =  25598.6    self-consistency for image   3
+     tcpu =  26527.3    self-consistency for image   4
+
+     activation energy (->) =   0.838601 eV
+     activation energy (<-) =   0.838601 eV
+
+     image        energy (eV)        error (eV/A)        frozen
+
+         1     -84574.4354330            0.019137            T
+         2     -84573.9872568            0.187549            F
+         3     -84573.5968320            0.294812            F
+         4     -84573.9941566            0.166960            F
+         5     -84574.4354325            0.019064            T
+
+     path length          =  5.300 bohr
+     inter-image distance =  1.325 bohr
+
+     ------------------------------ iteration  10 ------------------------------
+
+     tcpu =  27662.7    self-consistency for image   2
+     tcpu =  28382.0    self-consistency for image   3
+     tcpu =  29254.0    self-consistency for image   4
+
+     activation energy (->) =   0.816505 eV
+     activation energy (<-) =   0.816505 eV
+
+     image        energy (eV)        error (eV/A)        frozen
+
+         1     -84574.4354330            0.019137            T
+         2     -84573.9949202            0.141281            F
+         3     -84573.6189275            0.250857            F
+         4     -84574.0083879            0.152191            F
+         5     -84574.4354325            0.019064            T
+
+     path length          =  5.338 bohr
+     inter-image distance =  1.334 bohr
+
+     ------------------------------ iteration  11 ------------------------------
+
+     tcpu =  30159.9    self-consistency for image   2
+     tcpu =  30912.3    self-consistency for image   3
+     tcpu =  32070.0    self-consistency for image   4
+
+     activation energy (->) =   0.788065 eV
+     activation energy (<-) =   0.788064 eV
+
+     image        energy (eV)        error (eV/A)        frozen
+
+         1     -84574.4354330            0.019137            T
+         2     -84574.0040297            0.099899            F
+         3     -84573.6473683            0.188025            F
+         4     -84574.0268951            0.130569            F
+         5     -84574.4354325            0.019064            T
+
+     path length          =  5.399 bohr
+     inter-image distance =  1.350 bohr
+
+     ------------------------------ iteration  12 ------------------------------
+
+     tcpu =  33173.9    self-consistency for image   2
+     tcpu =  33873.5    self-consistency for image   3
+     tcpu =  34689.5    self-consistency for image   4
+
+     activation energy (->) =   0.770164 eV
+     activation energy (<-) =   0.770164 eV
+
+     image        energy (eV)        error (eV/A)        frozen
+
+         1     -84574.4354330            0.019137            T
+         2     -84574.0092088            0.084149            F
+         3     -84573.6652687            0.148094            F
+         4     -84574.0389670            0.115989            F
+         5     -84574.4354325            0.019064            T
+
+     path length          =  5.446 bohr
+     inter-image distance =  1.361 bohr
+
+     ------------------------------ iteration  13 ------------------------------
+
+     tcpu =  35464.1    self-consistency for image   2
+     tcpu =  36391.2    self-consistency for image   3
+     tcpu =  37341.8    self-consistency for image   4
+
+     activation energy (->) =   0.751799 eV
+     activation energy (<-) =   0.751799 eV
+
+     image        energy (eV)        error (eV/A)        frozen
+
+         1     -84574.4354330            0.019137            T
+         2     -84574.0137767            0.074615            F
+         3     -84573.6836336            0.118664            F
+         4     -84574.0519765            0.110386            F
+         5     -84574.4354325            0.019064            T
+
+     path length          =  5.508 bohr
+     inter-image distance =  1.377 bohr
+
+     ------------------------------ iteration  14 ------------------------------
+
+     tcpu =  38244.9    self-consistency for image   2
+     tcpu =  38899.7    self-consistency for image   3
+     tcpu =  39767.9    self-consistency for image   4
+
+     activation energy (->) =   0.741084 eV
+     activation energy (<-) =   0.741083 eV
+
+     image        energy (eV)        error (eV/A)        frozen
+
+         1     -84574.4354330            0.019137            T
+         2     -84574.0159193            0.069473            F
+         3     -84573.6943492            0.097952            F
+         4     -84574.0601395            0.098722            F
+         5     -84574.4354325            0.019064            T
+
+     path length          =  5.552 bohr
+     inter-image distance =  1.388 bohr
+
+     ------------------------------ iteration  15 ------------------------------
+
+     tcpu =  40469.0    self-consistency for image   2
+     tcpu =  41048.5    self-consistency for image   3
+     tcpu =  41606.1    self-consistency for image   4
+
+     activation energy (->) =   0.734634 eV
+     activation energy (<-) =   0.734633 eV
+
+     image        energy (eV)        error (eV/A)        frozen
+
+         1     -84574.4354330            0.019137            T
+         2     -84574.0169335            0.067863            F
+         3     -84573.7007994            0.087661            F
+         4     -84574.0653318            0.085674            F
+         5     -84574.4354325            0.019064            T
+
+     path length          =  5.576 bohr
+     inter-image distance =  1.394 bohr
+
+     ------------------------------ iteration  16 ------------------------------
+
+     tcpu =  42265.0    self-consistency for image   2
+     tcpu =  42891.9    self-consistency for image   3
+     tcpu =  43759.4    self-consistency for image   4
+
+     activation energy (->) =   0.726226 eV
+     activation energy (<-) =   0.726226 eV
+
+     image        energy (eV)        error (eV/A)        frozen
+
+         1     -84574.4354330            0.019137            T
+         2     -84574.0177014            0.056407            F
+         3     -84573.7092068            0.082609            F
+         4     -84574.0722953            0.065290            F
+         5     -84574.4354325            0.019064            T
+
+     path length          =  5.612 bohr
+     inter-image distance =  1.403 bohr
+
+     ------------------------------ iteration  17 ------------------------------
+
+     tcpu =  44536.6    self-consistency for image   2
+     tcpu =  45059.9    self-consistency for image   3
+     tcpu =  45733.2    self-consistency for image   4
+
+     activation energy (->) =   0.720407 eV
+     activation energy (<-) =   0.720407 eV
+
+     image        energy (eV)        error (eV/A)        frozen
+
+         1     -84574.4354330            0.019137            T
+         2     -84574.0176787            0.041277            F
+         3     -84573.7150260            0.076019            F
+         4     -84574.0771823            0.053921            F
+         5     -84574.4354325            0.019064            T
+
+     path length          =  5.638 bohr
+     inter-image distance =  1.410 bohr
+
+     ------------------------------ iteration  18 ------------------------------
+
+     tcpu =  46440.8    self-consistency for image   2
+     tcpu =  47142.6    self-consistency for image   3
+     tcpu =  47773.7    self-consistency for image   4
+
+     activation energy (->) =   0.714354 eV
+     activation energy (<-) =   0.714354 eV
+
+     image        energy (eV)        error (eV/A)        frozen
+
+         1     -84574.4354330            0.019137            T
+         2     -84574.0169484            0.031687            F
+         3     -84573.7210786            0.066571            F
+         4     -84574.0823216            0.049100            F
+         5     -84574.4354325            0.019064            T
+
+     path length          =  5.672 bohr
+     inter-image distance =  1.418 bohr
+
+     ------------------------------ iteration  19 ------------------------------
+
+     tcpu =  48487.8    self-consistency for image   2
+     tcpu =  49006.7    self-consistency for image   3
+     tcpu =  49703.7    self-consistency for image   4
+
+     activation energy (->) =   0.709825 eV
+     activation energy (<-) =   0.709824 eV
+
+     image        energy (eV)        error (eV/A)        frozen
+
+         1     -84574.4354330            0.019137            T
+         2     -84574.0156337            0.031379            F
+         3     -84573.7256083            0.057748            F
+         4     -84574.0862795            0.041617            F
+         5     -84574.4354325            0.019064            T
+
+     path length          =  5.707 bohr
+     inter-image distance =  1.427 bohr
+
+     ------------------------------ iteration  20 ------------------------------
+
+     tcpu =  50453.7    self-consistency for image   2
+     tcpu =  50982.6    self-consistency for image   3
+     tcpu =  51574.0    self-consistency for image   4
+
+     activation energy (->) =   0.708012 eV
+     activation energy (<-) =   0.708012 eV
+
+     image        energy (eV)        error (eV/A)        frozen
+
+         1     -84574.4354330            0.019137            T
+         2     -84574.0150100            0.026430            F
+         3     -84573.7274208            0.054040            F
+         4     -84574.0879325            0.035751            F
+         5     -84574.4354325            0.019064            T
+
+     path length          =  5.723 bohr
+     inter-image distance =  1.431 bohr
+
+     ------------------------------ iteration  21 ------------------------------
+
+     tcpu =  52225.5    self-consistency for image   2
+     tcpu =  52695.7    self-consistency for image   3
+     tcpu =  53281.7    self-consistency for image   4
+
+     activation energy (->) =   0.706198 eV
+     activation energy (<-) =   0.706198 eV
+
+     image        energy (eV)        error (eV/A)        frozen
+
+         1     -84574.4354330            0.019137            T
+         2     -84574.0144108            0.021602            F
+         3     -84573.7292345            0.050938            F
+         4     -84574.0896786            0.028972            F
+         5     -84574.4354325            0.019064            T
+
+     path length          =  5.738 bohr
+     inter-image distance =  1.435 bohr
+
+     ------------------------------ iteration  22 ------------------------------
+
+     tcpu =  53803.2    self-consistency for image   2
+     tcpu =  54271.8    self-consistency for image   3
+     tcpu =  54795.9    self-consistency for image   4
+
+     activation energy (->) =   0.704856 eV
+     activation energy (<-) =   0.704855 eV
+
+     image        energy (eV)        error (eV/A)        frozen
+
+         1     -84574.4354330            0.019137            T
+         2     -84574.0140456            0.019548            F
+         3     -84573.7305775            0.048341            F
+         4     -84574.0910758            0.027833            F
+         5     -84574.4354325            0.019064            T
+
+     path length          =  5.749 bohr
+     inter-image distance =  1.437 bohr
+
+     ---------------------------------------------------------------------------
+
+
+     neb: convergence achieved in  22 iterations
+
+     NEB          :     15h11m CPU     15h21m WALL
+
+
+   This run was terminated on:  11:23: 2   8Jul2026            
+
+=------------------------------------------------------------------------------=
+   JOB DONE.
+=------------------------------------------------------------------------------=

@@ -1,0 +1,61 @@
+&CONTROL
+  calculation   = "vc-relax"
+  forc_conv_thr = 3.88938d-4
+  etot_conv_thr = 3.88938d-8
+  outdir = './out/'
+  prefix = 'aiida'
+  pseudo_dir = './pseudo/'
+  verbosity = 'high'
+/
+
+&SYSTEM
+    a                         =  5.1507
+    b                         =  5.2028
+    c                         =  5.3156
+    cosac                     = -0.15981227219
+    ecutrho                   =  520
+    ecutwfc                   =  52
+    ibrav                     = -12
+    nat                       = 12
+    ntyp                      = 2
+	nosym                     = .true.
+    occupations               = "fixed"
+/
+
+&ELECTRONS
+  conv_thr =  1d-8
+  electron_maxstep = 200
+  mixing_beta =  0.4
+/
+
+&IONS
+    ion_dynamics = "bfgs"
+/
+
+&CELL
+    cell_dofree = "ibrav"
+    cell_dynamics = "bfgs"
+    press = 0.0
+    press_conv_thr = 0.5
+/
+
+ATOMIC_SPECIES
+O      15.9994 O.pbe-n-kjpaw_psl.1.0.0.UPF
+Zr     91.224 Zr.pbe-spn-kjpaw_psl.1.0.0.UPF
+
+ATOMIC_POSITIONS crystal
+Zr           0.2742000000       0.0389000000       0.2095000000
+Zr           0.7258000000       0.9611000000       0.7905000000
+Zr           0.7258000000       0.5389000000       0.2905000000
+Zr           0.2742000000       0.4611000000       0.7095000000
+O            0.0630000000       0.3289000000       0.3476000000
+O            0.9370000000       0.6711000000       0.6524000000
+O            0.9370000000       0.8289000000       0.1524000000
+O            0.0630000000       0.1711000000       0.8476000000
+O            0.4491000000       0.7548000000       0.4827000000
+O            0.5509000000       0.2452000000       0.5173000000
+O            0.5509000000       0.2548000000       0.0173000000
+O            0.4491000000       0.7452000000       0.9827000000
+
+K_POINTS automatic
+6 6 6 0 0 0

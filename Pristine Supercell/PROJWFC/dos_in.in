@@ -1,0 +1,7 @@
+&PROJWFC
+    prefix = 'aiida' ,
+    outdir = './out/' ,
+    DeltaE = 0.01 ,
+    kresolveddos = .true. ,
+    filpdos='zro2.proj'
+ /

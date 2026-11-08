@@ -1,0 +1,6 @@
+ &BANDS
+    prefix  = 'aiida'
+    outdir  = './out/'
+    filband = 'zro2.bands.dat'
+    lsym = .true.,
+ /

@@ -1,0 +1,18 @@
+&INPUTPP
+   prefix='aiida'
+   outdir='./out'
+   filplot='defect_states.dat'
+   plot_num=7
+   kpoint(1)= 1
+   kpoint(2)= 12
+   kband=189
+   !lsign=.true.
+/
+
+&PLOT
+   nfile=1
+   filepp(1)='defect_states.dat'
+   iflag=3
+   output_format=6
+   fileout='defect_states.cube'
+/
